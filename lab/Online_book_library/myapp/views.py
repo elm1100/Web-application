@@ -8,6 +8,6 @@ def hello(request):
 
 def e(request):
     return HttpResponse("Hello e")
-
+#hello world
 def page(request):
     return render(request,"page.html")
