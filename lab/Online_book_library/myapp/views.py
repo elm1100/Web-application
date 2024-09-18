@@ -9,5 +9,6 @@ def hello(request):
 def e(request):
     return HttpResponse("Hello e")
 #hello world
+#its works!
 def page(request):
     return render(request,"page.html")
